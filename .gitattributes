@@ -1,0 +1,156 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto svn-properties=svn:eol-style=native
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+INSTALL text svn-properties=svn:eol-style=native
+KEYS text svn-properties=svn:eol-style=native
+Makefile text svn-properties=svn:eol-style=native
+LICENSE text svn-properties=svn:eol-style=native
+NOTICE text svn-properties=svn:eol-style=native
+README text svn-properties=svn:eol-style=native
+USERINFO text svn-properties=svn:eol-style=native
+abs-linkmap text svn-properties=svn:eol-style=native
+abs-menulinks text svn-properties=svn:eol-style=native
+*.aart text svn-properties=svn:eol-style=native
+*.ac text svn-properties=svn:eol-style=native
+*.ad text svn-properties=svn:eol-style=native
+*.adoc text svn-properties=svn:eol-style=native
+*.am text svn-properties=svn:eol-style=native
+*.apt text svn-properties=svn:eol-style=native
+*.as text svn-properties=svn:eol-style=native
+*.c text svn-properties=svn:eol-style=native
+*.cat text svn-properties=svn:eol-style=native
+*.cfg text svn-properties=svn:eol-style=native
+*.cgi text svn-properties=svn:eol-style=native
+*.classpath text svn-properties=svn:eol-style=native
+*.cmd text svn-properties=svn:eol-style=native
+*.cnd text svn-properties=svn:eol-style=native
+*.conf text svn-properties=svn:eol-style=native
+*.config text svn-properties=svn:eol-style=native
+*.cpp text svn-properties=svn:eol-style=native
+*.css text svn-properties=svn:eol-style=native
+*.csv text svn-properties=svn:eol-style=native
+*.cwiki text svn-properties=svn:eol-style=native
+*.data text svn-properties=svn:eol-style=native
+*.dcl text svn-properties=svn:eol-style=native
+*.dtd text svn-properties=svn:eol-style=native
+*.egrm text svn-properties=svn:eol-style=native
+*.ent text svn-properties=svn:eol-style=native
+*.ft text svn-properties=svn:eol-style=native
+*.fn text svn-properties=svn:eol-style=native
+*.fv text svn-properties=svn:eol-style=native
+*.g text svn-properties=svn:eol-style=native
+.gitattributes text svn-properties=svn:eol-style=native
+*.grm text svn-properties=svn:eol-style=native
+*.h text svn-properties=svn:eol-style=native
+*.htc text svn-properties=svn:eol-style=native
+.htaccess text svn-properties=svn:eol-style=native
+*.handlers text svn-properties=svn:eol-style=native
+*.html text svn-properties=svn:eol-style=native
+*.ihtml text svn-properties=svn:eol-style=native
+*.in text svn-properties=svn:eol-style=native
+*.java text svn-properties=svn:eol-style=native
+*.jsp text svn-properties=svn:eol-style=native
+*.js text svn-properties=svn:eol-style=native
+*.json text svn-properties=svn:eol-style=native
+*.junit text svn-properties=svn:eol-style=native
+*.jx text svn-properties=svn:eol-style=native
+*.m text svn-properties=svn:eol-style=native
+*.m4 text svn-properties=svn:eol-style=native
+*.manifest text svn-properties=svn:eol-style=native
+*.mdo text svn-properties=svn:eol-style=native
+*.mdtext text svn-properties=svn:eol-style=native
+*.meta text svn-properties=svn:eol-style=native
+*.mf text svn-properties=svn:eol-style=native
+*.MF text svn-properties=svn:eol-style=native
+*.mod text svn-properties=svn:eol-style=native
+*.ms text svn-properties=svn:eol-style=native
+*.mxml text svn-properties=svn:eol-style=native
+*.n3 text svn-properties=svn:eol-style=native
+*.nroff text svn-properties=svn:eol-style=native
+*.patch text svn-properties=svn:eol-style=native
+*.pen text svn-properties=svn:eol-style=native
+*.php text svn-properties=svn:eol-style=native
+*.pl text svn-properties=svn:eol-style=native
+*.pm text svn-properties=svn:eol-style=native
+*.pod text svn-properties=svn:eol-style=native
+*.pom text svn-properties=svn:eol-style=native
+*.pro text svn-properties=svn:eol-style=native
+*.project text svn-properties=svn:eol-style=native
+*.properties text svn-properties=svn:eol-style=native
+*.py text svn-properties=svn:eol-style=native
+*.rb text svn-properties=svn:eol-style=native
+*.rdf text svn-properties=svn:eol-style=native
+*.rnc text svn-properties=svn:eol-style=native
+*.rng text svn-properties=svn:eol-style=native
+*.rnx text svn-properties=svn:eol-style=native
+*.roles text svn-properties=svn:eol-style=native
+*.rss text svn-properties=svn:eol-style=native
+*.rst text svn-properties=svn:eol-style=native
+*.scala text svn-properties=svn:eol-style=native
+*.schemas text svn-properties=svn:eol-style=native
+*.sql text svn-properties=svn:eol-style=native
+*.SQL text svn-properties=svn:eol-style=native
+*.svg text svn-properties=svn:eol-style=native
+*.template text svn-properties=svn:eol-style=native
+*.tld text svn-properties=svn:eol-style=native
+*.TXT text svn-properties=svn:eol-style=native
+*.txt text svn-properties=svn:eol-style=native
+*.types text svn-properties=svn:eol-style=native
+*.vm text svn-properties=svn:eol-style=native
+*.vsl text svn-properties=svn:eol-style=native
+*.wsdd text svn-properties=svn:eol-style=native
+*.wsdl text svn-properties=svn:eol-style=native
+*.xargs text svn-properties=svn:eol-style=native
+*.xcat text svn-properties=svn:eol-style=native
+*.xconf text svn-properties=svn:eol-style=native
+*.xegrm text svn-properties=svn:eol-style=native
+*.xgrm text svn-properties=svn:eol-style=native
+*.xhtml text svn-properties=svn:eol-style=native
+*.xhtml2 text svn-properties=svn:eol-style=native
+*.xlex text svn-properties=svn:eol-style=native
+*.xlog text svn-properties=svn:eol-style=native
+*.xmap text svn-properties=svn:eol-style=native
+*.xml text svn-properties=svn:eol-style=native
+*.xpm text svn-properties=svn:eol-style=native
+*.xroles text svn-properties=svn:eol-style=native
+*.xsamples text svn-properties=svn:eol-style=native
+*.xsd text svn-properties=svn:eol-style=native
+*.xsl text svn-properties=svn:eol-style=native
+*.xslt text svn-properties=svn:eol-style=native
+*.xsp text svn-properties=svn:eol-style=native
+*.xtest text svn-properties=svn:eol-style=native
+*.xul text svn-properties=svn:eol-style=native
+*.xweb text svn-properties=svn:eol-style=native
+*.xwelcome text svn-properties=svn:eol-style=native
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf svn-properties=svn:eol-style=CRLF
+*.ppk text eol=crlf svn-properties=svn:eol-style=CRLF
+
+# Declare files that will always have LF line endings on checkout.
+*.bsh text eol=lf svn-properties=svn:eol-style=LF
+*.sh text eol=lf svn-properties=svn:eol-style=LF
+
+# Denote all files that are truly binary and should not be modified.
+exec_command_with_password binary
+ssh_fix_fingerprint binary
+*.doc binary
+*.docx binary
+*.gif binary
+*.gz binary
+*.ico binary
+*.jar binary
+*.jpg binary
+*.jpeg binary
+*.min.js binary
+*.pdf binary
+*.png binary
+*.swc binary 
+*.tar binary
+*.tgz binary
+*.tif binary
+*.tiff binary
+*.xls binary
+*.xlsx binary
